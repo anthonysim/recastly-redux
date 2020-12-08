@@ -6,12 +6,12 @@
 // export default changeVideo;
 
 
-  export function changeVideo(video) {
-  return {
-    type: 'CHANGE_VIDEO',
-    video
-  }
-  }
+// export function changeVideo(video) {
+//   return {
+//     type: 'CHANGE_VIDEO',
+//     video
+//   }
+// }
 
 
 // export function itemsHasErrored(bool) {
