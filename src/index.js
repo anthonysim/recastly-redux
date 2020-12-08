@@ -9,6 +9,14 @@ import YOUTUBE_API_KEY from './config/youtube.js';
 //TODO: Use the Provider component to make your store available to
 //  the rest of your app.
 
+
+// added getState() to see state updated...
+// store.subscribe(() => {
+//   console.log('state updated')
+//   console.log(store.getState());
+// });
+
+
 ReactDOM.render(
   <App API_KEY={YOUTUBE_API_KEY} searchYouTube={searchYouTube} />,
   document.getElementById('app')
