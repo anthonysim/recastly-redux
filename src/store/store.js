@@ -7,7 +7,7 @@ import exampleVideoData from '../data/exampleVideoData.js';
 
 let initialState = {
   videoList: exampleVideoData,
-  currentVideo: null
+  currentVideo: exampleVideoData[0]
 };
 
 let configureStore = createStore(
@@ -18,18 +18,3 @@ let configureStore = createStore(
 
 
 export default configureStore;
-
-
-
-
-// import { createStore, applyMiddleware } from 'redux';
-// import thunk from 'redux-thunk';
-// import rootReducer from '../reducers';
-
-// export default function configureStore(initialState) {
-//     return createStore(
-//         rootReducer,
-//         initialState,
-//         applyMiddleware(thunk)
-//     );
-// }

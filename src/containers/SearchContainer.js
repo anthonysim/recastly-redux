@@ -10,11 +10,11 @@ import handleVideoSearch from '../actions/search.js';
 
 
 
-const mapStateToProps = (state) => {
-  return {
-    state
-  };
-};
+// const mapStateToProps = (state) => {
+//   return {
+//     state
+//   };
+// };
 
 const mapDispatchToProps = (dispatch) => {
   return {
@@ -24,5 +24,5 @@ const mapDispatchToProps = (dispatch) => {
   };
 };
 
-let SearchContainer = connect(mapStateToProps, mapDispatchToProps)(Search);
+let SearchContainer = connect(null, mapDispatchToProps)(Search);
 export default SearchContainer;
