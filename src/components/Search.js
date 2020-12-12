@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Search = ({handleSearchInputChange}) => {
+
   return (
     <div className="search-bar form-inline">
       <input
